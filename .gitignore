@@ -112,3 +112,21 @@ exports
 .cache
 build
 package-lock.json
+
+# *postgres:// USERNAME : PASSWORD @ HOST : PORT : DATABASE_NAME
+# postgres://
+# wzukbeoiygtrdq
+# :
+# 0662f34a834985db065ac055993824f9fd69a976eb19e22e8b2cba8900fc8a6f
+# @
+# ec2-34-233-226-84.compute-1.amazonaws.com
+# :
+# 5432
+# /
+# dd3lls1nfeo1er
+
+# heroku config:set DATABASE_USERNAME=wzukbeoiygtrdq
+# heroku config:set DATABASE_PASSWORD=0662f34a834985db065ac055993824f9fd69a976eb19e22e8b2cba8900fc8a6f
+# heroku config:set DATABASE_HOST=ec2-34-233-226-84.compute-1.amazonaws.com
+# heroku config:set DATABASE_PORT=5432
+# heroku config:set DATABASE_NAME=dd3lls1nfeo1er

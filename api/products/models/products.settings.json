@@ -35,13 +35,13 @@
       "plugin": "upload",
       "required": false
     },
-    "slugProduct": {
+    "slug": {
       "type": "uid",
       "targetField": "name"
     },
     "orders": {
-      "via": "products",
-      "collection": "orders"
+      "collection": "orders",
+      "via": "products"
     }
   }
 }

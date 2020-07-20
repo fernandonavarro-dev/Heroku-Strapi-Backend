@@ -9,9 +9,6 @@
     "timestamps": true
   },
   "attributes": {
-    "qty": {
-      "type": "integer"
-    },
     "name": {
       "type": "string"
     },

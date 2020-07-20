@@ -14,16 +14,16 @@
       "via": "orders",
       "dominant": true
     },
-    "total": {
-      "type": "decimal"
-    },
-    "subtotal": {
+    "total_in_cents": {
       "type": "integer"
     },
-    "shipping": {
+    "subtotal_in_cents": {
       "type": "integer"
     },
-    "commission": {
+    "shipping_in_cents": {
+      "type": "integer"
+    },
+    "commission_in_cents": {
       "type": "integer"
     },
     "product_qty": {
